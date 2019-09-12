@@ -97,6 +97,7 @@ section {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    
 }
 
 .container-fluid {
@@ -121,7 +122,7 @@ section {
 
 .wrap {
     height: 100%;
-    width:1000%;
+    width: 100%;
     position: absolute;
     /* This ensures that the images cannot 
     render outside of their container without 
@@ -149,8 +150,8 @@ section {
     HOME SECTION STYLES
     =========================================================*/
     #home {
-        background: url(../images/thumb_bkgd.jpeg) no repeat 50% 50%;
-        background-attachment: fixes;
+        background-image: url("./Images/Thumb/thumb_bkgd.jpg") no-repeat 50% 50%;
+        background-attachment: fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -211,11 +212,16 @@ section {
     background-color: #f5f3f3;
 }
 
+.form-order {
+    padding-bottom: 10px
+}
+
 .order {
     width: 60%
     padding: 10px;
+    padding-top: 20px;
     border-radius: 8px;
-    margin: 0px auto;
+    margin: 0 auto;
     background-color: rgba(100,65,0,.3);
     box-shadow: -1px -1px 1px 0 rgba(0,0,0,0.1), 1px 2px 10px 0 rgba(0,0,0,0.5);
 }
@@ -243,6 +249,10 @@ section {
     word-spacing: .3pt;
 }
 
+.order-text {
+    text-align: center;
+}
+
 .order p {
     color: #13161b;
     width: 50%;
@@ -260,7 +270,7 @@ section {
     margin: 2% auto;
     border-radius: 7px;
     background: rgb(227,222,222);
-    box-shadow: 2px 3px 3px 3px 0px rgba(0,0,0,0.3);
+    box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.3);
     font-family: 'Raleway', sans-serif;
 }
 
@@ -278,7 +288,7 @@ section {
     margin: 10px 1em;
     border-radius: 7px;
     background: #13161b;
-    box-shadow: inset 0px 3px 0px rgba(5,5,5,0.15);
+    box-shadow: inset 0px 3px 0px 0px rgba(5,5,5,0.15);
     font-family: 'Raleway', sans-serif;
 }
 
@@ -302,7 +312,7 @@ section {
     position: relative;
     display: inline;
     float: right;
-    margin-top: 13%;
+    margin-top: 7%;
 }
 
 .terms:hover {
@@ -319,8 +329,9 @@ section {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     margin: 0px 3%;
+    padding: 7px 0px;
     width: 25%;
-    font-size: 10px;
+    font-size: 18px;
     transition: border-color 0.3s color 0.3s background-color 0.3s;
     border-radius: 7px;
     background-color: #797a7b;
