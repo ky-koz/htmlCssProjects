@@ -217,7 +217,8 @@ section {
 }
 
 .order {
-    width: 60%
+    width: 80%;
+    border: 2px solid #fffc4a;
     padding: 10px;
     padding-top: 20px;
     border-radius: 8px;
@@ -230,7 +231,7 @@ section {
     width: 70%;
     text-align: center;
     margin: 0 auto;
-    color: #13161b;
+    color: c;
     font-weight: 500;
     font-size: 1.3em;
     letter-spacing: 0pt;
@@ -266,7 +267,7 @@ section {
     color: #ffd3d3;
     padding: 12px 12px;
     width: 70%;
-    border: 1px solid #808080;
+    border: 2px solid #997bee;
     margin: 2% auto;
     border-radius: 7px;
     background: rgb(255, 212, 212);
@@ -282,9 +283,9 @@ section {
     padding: 2% 1% 2% 7%;
     width: 80%;
     border-top: 1px solid #090b0d;
-    border-right: 2px solid #424549;
-    border-bottom: 2px solid #424549;
-    border-left: 1px solid #090b0d;
+    border-right: 3px solid #424549;
+    border-bottom: 1px solid #424549;
+    border-left: 3px solid #090b0d;
     margin: 10px 1em;
     border-radius: 7px;
     background: #ffffff;
@@ -312,7 +313,7 @@ section {
     position: relative;
     display: inline;
     float: right;
-    margin-top: 7%;
+    margin-top: 10%;
 }
 
 .terms:hover {
@@ -323,7 +324,7 @@ section {
 .submit input[type="submit"] {
     color:rgb(225,225,225);
     cursor: pointer;
-    border: none;
+    border: 2px dashed rgb(138, 206, 30);
     font-weight: 900;
     outline: none;
     text-align: center;
