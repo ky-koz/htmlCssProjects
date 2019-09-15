@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        img {
+            border-radius: 80px 80px 80px 80px;
+         }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+
+    
+        }
+
+        #contact {
+            padding-top: 20px;
+        }
+
+        #words {
+            padding-top: 50px;
+        }
+
+        #center {
+            width: 50%;
+            z-index: 1;
+           
+        }
+        #img_rd {
+            -webkit-filter: invert(100%) sepia(90%); /* Safari 6.0 - 9.0 */
+           filter: invert(100%) sepia(90%);
+        }
+
+        #img_2 {
+            padding-top: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        table, th, td {
+            border: 1px solid rgb(233, 211, 152);
+            text-align: center;
+           
+        }
+
+        .emph {
+            background-color:rgba(247, 246, 152, 0.418);
+        }
+
+        .table {
+            float: center;
+            width: 100%;
+        }
+
+        .table td { 
+            padding-bottom: 1em;
+            padding-top: 1em;
+    
+        }
+
+        .top-right {
+            position: fixed;
+            top: 50px;
+            right: 50px;
+            color: rgb(148, 146, 255);
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: rgb(113, 110, 255);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 6;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: rgb(247, 232, 193);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .navbar a:hover {
+            background: rgb(51, 51, 38);
+            color: rgb(247, 238, 217);
+        }
+        .main {
+            padding: 16px;
+            margin-top: 30px;
+        }
+        .container {
+            padding-bottom: 60px;
+        }
+
+        .two-col {
+            box-sizing: content-box;
+            padding-top: 20px;
+            padding-bottom: 20px;
+    
+        }
+        .row {
+            display: flex;
+            padding-left: 25%;
+            padding-right: 25%;
+        
+        }
+
+        .column {
+            flex: 50%;
+            padding: 10px;
+            color: rgb(247, 232, 193);
+            background-color: rgb(113, 110, 255);
+        }
+
+        .number {
+            width: 80%;
+            border: 2px solid rgb(247, 232, 193);
+            border-radius: 8px;
+            text-align: center;
+            color:rgb(51, 51, 38);
+            margin: 0 auto;
+            background-color: white;
+        }
+
+        .submit {
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+        .submit input[type="submit"] {
+            color:rgb(247, 232, 193);
+            cursor: pointer;
+            border: 1px solid rgb(148, 146, 255);
+            outline: none;
+            text-align: center;
+            margin: 0px 3%;
+            padding: 3px 0px;
+            width: 25%;
+            background-color:rgb(51, 51, 38);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#words">Words</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div id="home">
+                <div class="center">
+                    <img id="img_rd" src="./images/mustang_sunset.jpg" alt="" width="100%">
+                    <div class="top-right">
+                        <h3>We 
+                        <br/>/ Past
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class id="words">
+            <div class="container">
+                <div id="center" class="center">
+                    <h2>Old Grey</h2>
+                    <p>Life measured by the herd.</p>
+                    
+                    <table class="table">
+                    <tr class="emph">
+                        <th> </th>
+                        <th>time</th> 
+                        <th> </th>
+                    </tr>
+                    <tr>
+                        <td>dust</td>
+                        <td> </td>
+                        <td>graze</td>
+                    </tr>
+                    <tr>
+                        <td>protect</td>
+                        <td>watch</td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td>stillness</td>
+                        <td>strength</td>
+                    </tr>
+                    </table>
+                </div>
+            </div>  
+        </div>
+        <div class="container">
+            <div class="center">
+                <h2>Time Passed.</h2>
+                <img id="img_2" src="./images/call_your_mother.png" alt="" width="50%">
+            </div>
+        </div>
+        <div id="contact" class="center">
+            <h2>Call yo' Mom</h2>
+            <div class="two-col">
+                <div class="row">
+                    <div class="column">
+                        <p>Your Mom's number:</p>
+                        <form action="" method="post">
+                            <input class="number" type="text" value="" placeholder="(xxx) xxx-xxxx">
+                            <div class="submit">
+                                <input type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="column">
+                        <p>Your number:</p>
+                        <form action="" method="post">
+                            <input class="number" type="text" value="" placeholder="(xxx) xxx-xxxx">
+                            <div class="submit">
+                                <input type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

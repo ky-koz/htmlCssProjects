@@ -1,0 +1,55 @@
+/*================================================================
+    Author: Kyla Kozole
+==================================================================
+    GENERIC STYLES
+==================================================================*/
+
+.main {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+/* This is my header img container */
+.container-1 {
+    padding: 10px;
+    display: block;
+}
+
+.container-1 img {
+    margin: 0;
+    position: re;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.head-img {
+    display: block;
+    z-index: -1;
+    position: absolute;
+    -webkit-filter: blur(20px);
+    filter: blur(20px);
+}
+
+img.box {
+    position: absolute;
+    display: block;
+    height: auto;
+    max-width: 85%;
+}
+
+.blurb {
+    position: relative;
+    display: block;
+}
+
+/*========================================
+    FOOTER
+    ======================================*/
+.foot {
+    display: block;
+    text-align: center;
+}
