@@ -10,55 +10,63 @@
     display: block;
 }
 
-/* This is my header img container */
-.container-1 {
-    /* padding: 10px;
-    display: block; */
+/*===========================================================
+    HEADER IMG
+    =========================================================*/
+.header-img {
     position: relative;
-}
-
-.container-1 img {
-    /* margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    display: block; */
 }
 
 .bkgd-img {
-    /* width: 100%;
-    display: block;
-    z-index: -1;
-    position: relative;
-    z-index: 0; */
     background-size: cover;
     position: relative;
     background-position: center;
-    /* background-repeat: no-repeat; */
-    /* height: 50%; */
-    /* background-image: url("./images/mustang_sunset.jpg"); */
     -webkit-filter: blur(25px);
     filter: blur(25px);
     width: 100%;
 }
 
 img.top {
-    /* position: relative;
-    display: block;
-    height: auto; */
     max-width: 85%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* z-index: 1 */
 }
 
-.blurb {
+/*===============================================
+    CONTENT
+    =============================================*/
+
+.prints {
+    padding-top: 60px;
     position: relative;
     display: block;
+    margin-left: 5%;
+}
+
+/*===============================================
+    PRICING TABLE
+    =============================================*/
+
+.pricing {
+    padding-top: 5px;
+}
+
+.table {
+    width: 20%;
+    border: 1px solid rgb(80, 80, 80);
+}
+
+.table th {
+    font-weight: bold;
+    background-color: rgb(163, 158, 149);
+}
+
+.table th, td {
+    padding: 2em;
+    border: 1px solid rgb(80, 80, 80);
+
 }
 
 /*========================================
@@ -67,4 +75,5 @@ img.top {
 .foot {
     display: block;
     text-align: center;
+    font-weight: bold;
 }
