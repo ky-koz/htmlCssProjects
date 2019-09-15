@@ -12,33 +12,48 @@
 
 /* This is my header img container */
 .container-1 {
-    padding: 10px;
-    display: block;
+    /* padding: 10px;
+    display: block; */
+    position: relative;
 }
 
 .container-1 img {
-    margin: 0;
-    position: re;
+    /* margin: 0;
+    position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    display: block;
+    display: block; */
 }
 
-.head-img {
+.bkgd-img {
+    /* width: 100%;
     display: block;
     z-index: -1;
-    position: absolute;
-    -webkit-filter: blur(20px);
-    filter: blur(20px);
+    position: relative;
+    z-index: 0; */
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    /* height: 50%; */
+    /* background-image: url("./images/mustang_sunset.jpg"); */
+    -webkit-filter: blur(25px);
+    filter: blur(25px);
+    width: 100%;
 }
 
-img.box {
-    position: absolute;
+img.top {
+    /* position: relative;
     display: block;
-    height: auto;
+    height: auto; */
     max-width: 85%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* z-index: 1 */
 }
 
 .blurb {
