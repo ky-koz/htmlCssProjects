@@ -157,6 +157,9 @@ img.top {
     width: 60%;
 }
 
+/*=======================================================
+    OVERLAY
+    =====================================================*/
 .image {
     transition: .5s ease;
     backface-visibility: hidden;
@@ -208,17 +211,50 @@ img.top {
 }
 
 /*=========================================
-    ABOUT
+    VIDEO
     =======================================*/
-.about {
+.video {
     padding-top: 20px;
     padding: 5%;
     display: block;
-    padding-bottom: 10px;
+    padding-bottom: 70px;
 }
 
 .vid {
     width: 100%;
+}
+
+/*==========================================
+    CONTACT
+    ========================================*/
+.contact {
+   padding: 2%;
+    background-color: rgb(131, 41, 0);
+    color: rgb(247, 232, 193);
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.281);
+    padding: 5%;
+}
+
+.form {
+    display: block;
+    
+}
+
+.form input {
+    margin: 0 3%;
+    padding: 2px 5px;
+}
+
+.form input[type=submit] {
+    background-color: rgb(225, 241, 238);
+    padding: .5em 2em;
+    cursor: pointer;
+    border-radius: 15%;
+    border: none;
+
 }
 
 /*========================================
