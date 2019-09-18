@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kyla Kozole</title>
+    <link rel="stylesheet"type="text/css" href="./css/my_portfolio.css">
+    <link href="https://fonts.googleapis.com/css?family=Gayathri|Lato|Manjari|Merriweather+Sans|Raleway|Roboto&display=swap" rel="stylesheet">
+</head>
+<!-- Body -->
+<body class="background">
+    
+<!-- Navbar -->
+    <div class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#about"> About</a>
+        <a href="#github">Github</a>
+        <a href="#Contact">Contact</a>
+    </div>
+
+<!-- Home -->
+    <br> <!-- Breaks inserted to add space between navbar and first heading -->
+    <br>
+
+<!-- Video --> 
+    <div id="home">
+        <video autoplay muted loop id="typing_video"> <!-- Makes the video play automatically, on a loop, with no sound. -->
+            <source src="./media/video/Typing.mp4" type="video/mp4">
+                Your browser does not support HTML5 video. <!-- Display message if video fails to run -->
+        </video>
+    </div>
+
+<!--Video text-->
+    <div class="video_text">
+        <h1 style="color: white;">Kyla Kozole's Portfolio</h1>
+            <p>
+                <strong>
+                    <center>
+                        <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+                        <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
+                        <br>field of battle and to command such unswervingly dutiful actors or troops.
+                        </q>	
+                        <br>-Joseph Weizenbaum<br>
+                        <br>
+                        My name is Kyla Kozole. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                        <br>Thank you for stopping by and enjoy! 
+                    </center>
+                </strong>
+            </p>
+    </div>
+<!-- About section-->
+    <div class="row" id="about">
+        <div class="column_4"> <!-- Left column -->
+            <img src="./media/images/Development.jpg" alt="laptop">
+        </div>
+
+        <div class="column_1"> <!-- Right column -->
+            <h1>About</h1>
+                <p> I am a software deleoper who loves to code! As a dog mom of two and a fine artist, I enjoy time hiking or playing with paint and craft material.
+                <br><br> I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp. Trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
+                <br><br>I am a full-stack developer and would love to work with you on your project. <a href="#contact"> Contact</a> me below!</p>
+        </div>
+    </div>
+
+<!-- Github section -->
+    <div class="row" id="github">
+        <div class="column_1"> <!-- Left column -->
+            <h1>Github</h1>
+                <p> You can view my coding projects on my Github profile here: <br>
+                <center><a href="https://github.com/the-tech-academy" target="_blank">The Tech Academy Github</a></center></p>
+        </div>
+
+        <div class="column_2"> <!-- Right column -->
+            <a href="https://github.com/the-tech-academy" target="_blank"><img src="./media/images/GitHub.png" alt="GitHub"></a>
+        </div>
+    </div>
+
+<!-- Contact section -->
+    <div class="row" id="contact">
+        <div class="column_3"> <!-- Contact image, left column -->
+            <img src="./media/images/Contact.jpg" alt="contact_image">
+        </div>
+
+        <div class="column_1"> <!-- Contact form column right -->
+            <h1>Contact</h1>
+                <form action="" method="get">
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="email" name="email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="message" name="message" placeholder="Please write your message here">
+                        <input type="submit" value="Submit">
+                </form>
+        </div>
+    </div>
+
+<!-- Footer section -->
+    <footer>
+        <p> <!-- What should I replace the footer <p> with? -->
+            <center>&copy Prosper Consulting Inc., <a href="https://learncodinganywhere.com/">The Tech Academy</a></center><br>
+        </p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,233 @@
+/*==============================================================
+    Author: Kyla Kozole
+    ====================================
+    GENERIC STYLE
+    ====================================*/
+
+body {
+    margin: 0%; 
+}
+
+/*=====================================
+    NAVBAR
+    ===================================*/
+
+.navbar {
+    overflow: hidden;
+    background-color: #301c25;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:  'Lato', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #f4f4f4;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar a.active {
+    background-color: darkgray;
+}
+
+/*=====================================
+    VIDEO
+    ===================================*/
+#typing_video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    z-index: -1;
+}
+
+.video_text {
+    background: rgba(53, 39, 32, 0.568);
+    color: white;
+    width: 100%;
+    padding: 20px;
+    margin-top: 30%;
+}
+
+/*======================================
+    TABLE
+    ====================================*/
+* {
+    box-sizing: border-box;
+}
+
+.column_1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 2%;
+    height: 450px;
+    background-color: #f2f2f2;
+}
+
+.column_2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 3.5%;
+    height: 450px;
+    background-color: #685b54;
+}
+
+.column_4 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 3.5%;
+    height: 450px;
+    background-color: #685b54;
+}
+
+.column_3 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 3.5%;
+    height: 450px;
+    background-color: #685b54;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*======================================
+    BODY
+    ====================================*/
+ h1 {
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+    margin-top: 3%;
+    color: #1a1a1a;
+ }
+
+p {
+    font-family:   'Lato', sans-serif;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+center {
+    font-family:   'Lato', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a {
+    color: blue;
+}
+
+q {
+    font-style: italic;
+    font-weight: bold;
+}
+
+img {
+    filter: grayscale(75%);
+    border-radius: 8px;
+    max-width: 100%;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/*===========================================
+    CONTACT FORM
+    =========================================*/
+
+input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family:   'Lato', sans-serif;
+}
+
+input[type=submit] {
+    background-color:#301c25;
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:   'Lato', sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    transform: scale(1.5);
+    transition: transform 1.5s;
+}
+
+form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family:  'Lato', sans-serif;
+}
+
+center:hover {
+    transition: traansform 2s;
+    transform: scale(1.1);
+}
+
+p:hover {
+    color: #00004d;
+    transition: transform 1s;
+    transform: scale(1.01);
+}
+
+h1:hover {
+    color: black;
+    font-weight: normal;
+}
+
+img:hover {
+    filter: grayscale(5%);
+    transition: transform 1s;
+    transform: scale(1.1);
+}
+/*===========================================
+    FOOTER
+    =========================================*/
+footer {
+    padding: 2%;
+    background-color: white;
+}
