@@ -10,7 +10,7 @@
 	<body>
 	
 		<!-- Nav -->
-		<div>
+		<div id="nav">
 			<div>
 				<ul>
 					<a href="#home" id="link"><li>HOME</li></a>
@@ -33,7 +33,64 @@
 			</div>
 		</div>
 		<!-- END HOME -->
-		
+		<!-- Lightbox -->
+		<div class="row1"></div>
+			<div class="column1">
+				<img src="./images/thumb_1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+			</div>
+			<div class="column1">
+				<img src="./images/thumb_2.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+			</div>
+			<div class="column1">
+				<img src="./images/thumb_3.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+			</div>
+			<div class="column1">
+				<img src="./images/thumb_4.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+			</div>			
+		</div>
+
+		<div class="artModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+				<div class="artSlides">
+					<div class="numberText">1 / 4</div>
+					<img src="./images/thumb_1.jpg" style="width: 100%">
+				</div>
+				
+				<div class="artSlides">
+					<div class="numberText">2 / 4</div>
+					<img src="./images/thumb_2.png" style="width: 100%">
+				</div>
+				
+				<div class="artSlides">
+					<div class="numberText">3 / 4</div>
+					<img src="./images/thumb_3.png" style="width: 100%">
+				</div>
+				
+				<div class="artSlides">
+					<div class="numberText">4 / 4</div>
+					<img src="./images/thumb_4.png" style="width: 100%">
+				</div>
+
+				<div class="column1">
+					<img class="demo cursor" src="./images/thumb_1.jpg" style="width:100%" onclick="currentSlide(1)" alt="">
+				</div>
+				<div class="column1">
+					<img class="demo cursor" src="./images/thumb_2.png" style="width:100%" onclick="currentSlide(2)" alt="">
+				</div>
+				<div class="column1">
+					<img class="demo cursor" src="./images/thumb_3.png" style="width:100%" onclick="currentSlide(3)" alt="">
+				</div>
+				<div class="column1">
+					<img class="demo cursor" src="./images/thumb_4.png" style="width:100%" onclick="currentSlide(4)" alt="">
+				</div>
+			</div>
+		</div>
+
+
+
+
 		<!-- GALLERY -->
 		<section>
 			<div id="gallery">
@@ -405,6 +462,7 @@
 			www.kylakozole.com &nbsp;|&nbsp; &copy; 2019
 		</div>
 		<!-- END FOOTER -->
+		<script src="./js/on_page_website.js"></script>
 		
 	</body>
 </html>
